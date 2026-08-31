@@ -1,0 +1,27 @@
+.preview-panel { display: grid; grid-template-columns: 58px minmax(0, 1fr) auto auto; align-items: center; gap: 12px; max-width: 600px; margin-top: 18px; padding: 10px; border: 1px solid #cbd8ce; border-radius: 6px; background: #fcfcf8; box-shadow: 0 7px 0 #e7ebe1; }
+.language-button { padding: 7px 9px; border: 1px solid #cbd8ce; border-radius: 4px; background: transparent; color: #517066; cursor: pointer; font: 10px 'DM Mono', monospace; }
+.language-select-label { display: flex; align-items: center; gap: 6px; color: #82968d; font: 10px 'DM Mono', monospace; }
+.language-select-label > span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.language-select-label select { padding: 7px 7px; border: 1px solid #cbd8ce; border-radius: 4px; background: transparent; color: #517066; cursor: pointer; font: 10px 'DM Mono', monospace; }
+.field-heading { display: flex; align-items: center; justify-content: space-between; }
+.legal-content { max-width: 760px; padding: 110px 5vw 150px; margin: 0 auto; }
+.legal-content h1 { margin: 0 0 30px; color: #183b32; font-size: clamp(42px, 7vw, 74px); line-height: 1; letter-spacing: -3px; }
+.legal-content p { max-width: 650px; margin: 0 0 20px; color: #718980; font-size: 14px; line-height: 1.85; }
+.back-link { color: #e5654c; font: 11px 'DM Mono', monospace; text-decoration: none; }
+.field-heading > div { display: flex; gap: 8px; }
+.field-heading button { padding: 0; border: 0; background: transparent; color: #e5654c; cursor: pointer; font: 10px 'DM Mono', monospace; }
+.field-heading button:disabled { color: #aabbb1; cursor: not-allowed; }
+.retry-button { margin-top: 8px; padding: 0; border: 0; color: #e5654c; background: transparent; cursor: pointer; font: 10px 'DM Mono', monospace; }
+.seo-links { display: flex; flex-wrap: wrap; gap: 10px 18px; padding-top: 22px; padding-bottom: 22px; border-top: 1px solid #dfe5db; border-bottom: 1px solid #dfe5db; }
+.seo-links a { color: #648276; font: 10px 'DM Mono', monospace; text-decoration: none; }
+.seo-links a:hover { color: #e5654c; }
+.preview-thumb { width: 58px; height: 58px; overflow: hidden; border-radius: 4px; background: #dce9da; display: grid; place-items: center; color: #e5654c; font-size: 22px; }
+.preview-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.preview-info { min-width: 0; }
+.preview-info strong, .preview-info span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.preview-info strong { color: #284e41; font-size: 12px; }
+.preview-info span { margin-top: 4px; color: #789087; font: 10px 'DM Mono', monospace; }
+.preview-panel select { min-height: 34px; padding: 0 8px; border: 1px solid #cbd8ce; border-radius: 4px; background: #f5f5ef; color: #385d4e; font-size: 10px; }
+.preview-download { min-height: 34px; padding: 0 11px; border: 0; border-radius: 4px; background: #e5654c; color: #fffaf1; cursor: pointer; font-size: 11px; font-weight: 700; }
+.preview-download:disabled, .download-button:disabled { cursor: wait; opacity: .65; }
+@media (max-width: 720px) { .preview-panel { grid-template-columns: 54px 1fr; }.preview-thumb { width: 54px; height: 54px; }.preview-panel select, .preview-download { width: 100%; grid-column: 1 / -1; }.preview-download { min-height: 43px; } }

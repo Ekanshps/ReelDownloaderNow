@@ -1,0 +1,10 @@
+{
+  "name": "ReelDownloaderNow",
+  "short_name": "ReelDownloader",
+  "description": "Free, fast Instagram reel and video downloader for public content.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5ef",
+  "theme_color": "#f5f5ef",
+  "icons": [{ "src": "/LogoLight.png", "sizes": "768x768", "type": "image/png", "purpose": "any maskable" }]
+}

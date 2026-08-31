@@ -1,0 +1,86 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets/
+credentials/
+config.local.*
+
+# Instagram session data and exported browser cookies
+cookies.txt
+*.cookies
+*.cookie
+instagram-cookies*
+auth.json
+*.auth
+
+# Python environments, caches, and local runtime files
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local downloader output and temporary media
+downloads/
+media/
+tmp/
+temp/
+*.mp4
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.zip
+!public/*.png
+!public/*.jpg
+!public/*.jpeg
+!public/*.svg
+!frontend/public/*.png
+!frontend/public/*.jpg
+!frontend/public/*.jpeg
+!frontend/public/*.svg
+
+# Certificates, private keys, databases, and deployment overrides
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.db
+*.sqlite
+*.sqlite3
+docker-compose.override.yml
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

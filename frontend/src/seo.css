@@ -1,0 +1,23 @@
+.brand-logo { display: block; width: 174px; height: auto; max-height: 42px; object-fit: contain; object-position: left center; }
+.brand-icon-only { width: 32px; height: 32px; max-height: 32px; object-fit: cover; object-position: center; }
+.brand-name { color: #163b32; font-size: 16px; font-weight: 800; letter-spacing: -.7px; }
+.brand-name b { color: #e5654c; }
+.brand-logo-dark { display: none; }
+.dark-mode .brand-logo-light { display: none; }
+.dark-mode .brand-logo-dark { display: block; }
+.app-shell:not(.dark-mode) .brand-logo-light { display: block; }
+.app-shell:not(.dark-mode) .brand-logo-dark { display: none; }
+.content-section { max-width: 850px !important; padding-top: 20px; padding-bottom: 95px; }
+.content-section h2 { max-width: 640px; margin: 0 0 20px; color: #183b32; font-size: 38px; line-height: 1.1; letter-spacing: -2px; }
+.content-section > p:not(.eyebrow) { max-width: 760px; color: #718980; font-size: 13px; line-height: 1.8; }
+.keyword-list { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 25px; }
+.keyword-list span { padding: 8px 11px; border: 1px solid #d4dfd4; border-radius: 4px; color: #56776a; background: #eef1e8; font: 10px 'DM Mono', monospace; }
+.faq-section { padding-top: 85px; padding-bottom: 95px; border-top: 1px solid #dfe5db; }
+.faq-list { max-width: 850px; border-top: 1px solid #becdc1; }
+.faq-list details { border-bottom: 1px solid #becdc1; }
+.faq-list summary { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; color: #284e41; cursor: pointer; list-style: none; font-size: 14px; font-weight: 700; }
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after { content: '+'; color: #e5654c; font: 22px 'DM Mono', monospace; }
+.faq-list details[open] summary::after { content: '−'; }
+.faq-list details p { max-width: 690px; margin: -4px 40px 19px 0; color: #789087; font-size: 12px; line-height: 1.7; }
+@media (max-width: 720px) { .brand-logo { width: 150px; }.content-section { padding-top: 10px; padding-bottom: 65px; }.content-section h2 { font-size: 30px; }.faq-section { padding-top: 65px; padding-bottom: 65px; }.faq-list summary { gap: 20px; font-size: 13px; }.faq-list details p { margin-right: 15px; } }
